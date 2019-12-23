@@ -1,0 +1,85 @@
+$fontFamily:"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
+$fontColor: #333;
+
+
+html,body{width:100%;height:100%;overflow-x: hidden;}
+
+*{margin:0;padding:0}
+html *{
+
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html{
+  font-size: 100.01%;
+}
+html,body{-webkit-overflow-scrolling: touch;}
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, input, textarea, th, td, form, a, p, textarea, pre{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 30px;
+  color: $fontColor;
+  font-family: Helvetica Neue For Number,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ol, ul, li {
+  list-style: none;
+}
+input, textarea{
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: normal;
+}
+
+input::-webkit-input-placeholder{
+  color:#aaa;
+}
+input:focus::-webkit-input-placeholder{color: #c3c3c3;}
+button{
+  border: none;
+  outline: none;
+}
+input[type="submit"],input[type="reset"],input[type="button"],input[type=date],button,select{
+  -moz-appearance:none; 
+  -webkit-appearance:none; 
+  appearance:none;
+  outline: 0;
+  background-color:#fff;
+  border:none;
+  padding:0;
+}
+a {
+  color: #8C8C8C;
+  text-decoration: none;
+}
+img{
+  border: 0;
+  outline: 0;
+}
+.whitespace{
+  height: 10px;
+}
+
+
+img {
+  position: relative;
+}
+
+
+.clearfloat {
+  zoom:1;
+}
+
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
